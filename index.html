@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Facebook</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    </head>
+
+    <body>
+
+        <nav>
+
+            <div class="nav-left">
+
+                <img src="images/fb.png" alt="" class="logo">
+                <ul>
+
+                    <li><img src="images/notification.png" alt=""></li>
+                    <li><img src="images/inbox.png" alt=""></li>
+                    <li><img src="images/video.png" alt=""></li>
+
+                </ul>
+
+            </div>
+
+            <div class="nav-right">
+
+                <div class="search-box">
+
+                    <img src="images/search.png" alt="">
+                    <input type="text" placeholder="Search">
+
+                </div>
+
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+
+                    <img src="images/pp.jpg" alt="">
+
+                </div>
+                
+            </div>
+
+            <!----------------------Settings Menu------------ -->
+
+            <div class="settings-menu">
+
+
+                <div id="dark-btn">
+
+                    <span></span>
+
+                </div>
+
+
+                <div class="settings-menu-inner">
+
+
+                    <div class="user-profile">
+
+                        <img src="images/pp.jpg" alt="">
+                        <div>
+
+                            <p>Intisar Ishmam</p>
+                            <a href="#">See Your Profile</a>
+
+                        </div>
+
+                    </div>
+
+
+                    <hr>
+
+
+                    <div class="user-profile">
+
+                        <img src="images/feedback.png">
+                        <div>
+
+                            <p>Give Feedback</p>
+                            <a href="#">Help Us To Improve The New Design</a>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+
+                    <div class="setting-links">
+
+                        <img src="images/help.png" class="settings-icon" alt="">
+                        <a href="#">Help And Support <img src="images/arrow.png" width="10px" alt=""></a>
+
+                    </div>
+
+                    <div class="setting-links">
+
+                        <img src="images/display.png" class="settings-icon" alt="">
+                        <a href="#">Display And Accessibility <img src="images/arrow.png" width="10px" alt=""></a>
+
+                    </div>
+
+                    <div class="setting-links">
+
+                        <img src="images/logout.png" class="settings-icon" alt="">
+                        <a href="#">Logout <img src="images/arrow.png" width="10px" alt=""></a>
+
+                    </div>
+
+
+                </div>
+
+        </nav>
+
+
+        <div class="container">
+
+
+
+
+            <!----------------------left-side-bar------------ -->
+
+
+
+            <div class="left-side-bar">
+
+                <div class="imp-links">
+
+                    <a href="#"><img src="images/news.png" alt=""> Latest News</a>
+                    <a href="#"><img src="images/friends.png" alt=""> Friends</a>
+                    <a href="#"><img src="images/group.png" alt=""> Group</a>
+                    <a href="#"><img src="images/marketplace.png" alt=""> Marketplace</a>
+                    <a href="#"><img src="images/watch.png" alt=""> Watch</a>
+                    <a href="#">See More</a>
+
+                </div>
+
+                <div class="shortcut-links">
+
+                    <p>Your Shortcuts</p>
+                    <a href="#"><img src="images/shortcut-1.png" alt="">Web Devolopers</a>
+                    <a href="#"><img src="images/shortcut-2.png" alt="">Web Design Course</a>
+                    <a href="#"><img src="images/shortcut-3.png" alt="">Full Stack Devolopment</a>
+                    <a href="#"><img src="images/shortcut-4.png" alt="">Website Experts</a>
+
+                </div>
+
+            </div>
+
+
+            <!----------------------main------------ -->
+
+
+            <div class="main-content">
+
+                <div class="story-gallary">
+
+                    <div class="story story1">
+
+                        <img src="images/upload.png" alt="">
+                        <p>Post Story</p>
+
+                    </div>
+
+                    <div class="story story2">
+
+                        <img src="images/member-1.png" alt="">
+                        <p>Angel</p>
+
+                    </div>
+
+                    <div class="story story3">
+
+                        <img src="images/member-2.png" alt="">
+                        <p>Roberto</p>
+
+                    </div>
+
+                    <div class="story story4">
+
+                        <img src="images/member-3.png" alt="">
+                        <p>Maria</p>
+
+                    </div>
+
+                    <div class="story story5">
+
+                        <img src="images/member-4.png" alt="">
+                        <p>Alison</p>
+
+                    </div>
+
+                </div>
+
+                <div class="write-post-container">
+
+                    <div class="user-profile">
+
+                        <img src="images/pp.jpg" alt="">
+                        <div>
+
+                            <p>Intisar Ishmam</p>
+                            <small>Public <i class="fas fa-angle-down"></i></small>
+
+                        </div>
+
+                    </div>
+
+                    <div class="post-input-container">
+
+                        <textarea rows="5" placeholder="What's on your mind, Intisar?"></textarea>
+
+                        <div class="add-postlink">
+
+                            <a href="#"><img src="images/live-video.png" alt=""> Live Video</a>
+                            <a href="#"><img src="images/photo.png" alt=""> Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png" alt=""> Feeling/Activity</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="post-container">
+
+                    <div class="post-row">
+
+                        <div class="user-profile">
+
+                            <img src="images/pp.jpg" alt="">
+                            <div>
+    
+                                <p>Intisar Ishmam</p>
+                                <span>July 9 2021, 5:49pm</span>
+    
+                            </div>
+    
+                        </div>
+
+                        <a href=""><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+
+
+                    <p class="post-text">Subscribe to <span>'Stickman World'</span> Youtube channel for more gamers related videos. <a href="#">#StickmanWorld</a>  
+                        <a href="#">#Youtube</a> </p>
+
+                    <img src="images/thumbnail.jpg" class="post-img" alt="">
+
+                    <div class="post-row">
+
+                        <div class="activity-icons">
+
+                            <div><img src="images/like.png" alt=""> 69</div>
+                            <div><img src="images/comments.png" alt=""> 13</div>
+                            <div><img src="images/share.png" alt=""> 3</div>
+
+                        </div>
+
+                        <div class="post-profile-icon">
+
+                            <img src="images/pp.jpg" alt=""> <i class="fas fa-angle-down"></i>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="post-container">
+
+                    <div class="post-row">
+
+                        <div class="user-profile">
+
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+    
+                                <p>David Burrow</p>
+                                <span>July 10 2021, 7:13pm</span>
+    
+                            </div>
+    
+                        </div>
+
+                        <a href=""><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+
+
+                    <p class="post-text">Family Time <a href="#">#FamilyTime</a>  
+                        <a href="#">#Family</a> </p>
+
+                    <img src="images/feed-image-1.png" class="post-img" alt="">
+
+                    <div class="post-row">
+
+                        <div class="activity-icons">
+
+                            <div><img src="images/like-blue.png" alt=""> 33</div>
+                            <div><img src="images/comments.png" alt=""> 3</div>
+                            <div><img src="images/share.png" alt=""> </div>
+
+                        </div>
+
+                        <div class="post-profile-icon">
+
+                            <img src="images/pp.jpg" alt=""> <i class="fas fa-angle-down"></i>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="post-container">
+
+                    <div class="post-row">
+
+                        <div class="user-profile">
+
+                            <img src="images/member-2.png" alt="">
+                            <div>
+    
+                                <p>David Burrow</p>
+                                <span>July 10 2021, 8:01pm</span>
+    
+                            </div>
+    
+                        </div>
+
+                        <a href=""><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+
+
+                    <p class="post-text">Life is nothing without friends</p>
+
+                    <img src="images/feed-image-2.png" class="post-img" alt="">
+
+                    <div class="post-row">
+
+                        <div class="activity-icons">
+
+                            <div><img src="images/like-blue.png" alt=""> 102</div>
+                            <div><img src="images/comments.png" alt=""> 24</div>
+                            <div><img src="images/share.png" alt=""> 1</div>
+
+                        </div>
+
+                        <div class="post-profile-icon">
+
+                            <img src="images/pp.jpg" alt=""> <i class="fas fa-angle-down"></i>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="post-container">
+
+                    <div class="post-row">
+
+                        <div class="user-profile">
+
+                            <img src="images/member-4.png" alt="">
+                            <div>
+    
+                                <p>Alison Tylew</p>
+                                <span>July 10 2021, 5:10pm</span>
+    
+                            </div>
+    
+                        </div>
+
+                        <a href=""><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+
+
+                    <p class="post-text"></p>
+
+                    <img src="images/feed-image-3.png" class="post-img" alt="">
+
+                    <div class="post-row">
+
+                        <div class="activity-icons">
+
+                            <div><img src="images/like.png" alt=""> 19</div>
+                            <div><img src="images/comments.png" alt=""> 2</div>
+                            <div><img src="images/share.png" alt=""> </div>
+
+                        </div>
+
+                        <div class="post-profile-icon">
+
+                            <img src="images/pp.jpg" alt=""> <i class="fas fa-angle-down"></i>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="post-container">
+
+                    <div class="post-row">
+
+                        <div class="user-profile">
+
+                            <img src="images/member-3.png" alt="">
+                            <div>
+    
+                                <p>Maria Nelson</p>
+                                <span>July 9 2021, 9:39</span>
+    
+                            </div>
+    
+                        </div>
+
+                        <a href=""><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+
+
+                    <p class="post-text">Everything should start with a smile</p>
+
+                    <img src="images/feed-image-4.png" class="post-img" alt="">
+
+                    <div class="post-row">
+
+                        <div class="activity-icons">
+
+                            <div><img src="images/like-blue.png" alt=""> 208</div>
+                            <div><img src="images/comments.png" alt=""> 63</div>
+                            <div><img src="images/share.png" alt=""> 11</div>
+
+                        </div>
+
+                        <div class="post-profile-icon">
+
+                            <img src="images/pp.jpg" alt=""> <i class="fas fa-angle-down"></i>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+
+                <button type="button" class="btn">load More</button>
+
+
+            </div>
+
+            
+
+
+            <!----------------------right-side-bar------------ -->
+
+
+            <div class="right-side-bar">
+
+                <div class="sidebar-title">
+
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+
+                </div>
+
+                <div class="event">
+
+                    <div class="left-event">
+
+                        <h3>12th</h3>
+                        <span>July</span>
+
+                    </div>
+
+                    <div class="right-event">
+
+                        <h4>Social Media</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Kopakopi,Barhmanbaria</p>
+                        <a href="#">More Info</a>
+
+                    </div>
+
+                </div>
+
+                <div class="event">
+
+                    <div class="left-event">
+
+                        <h3>17th</h3>
+                        <span>July</span>
+
+                    </div>
+
+                    <div class="right-event">
+
+                        <h4>Mobile Marketing</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> NewYork,Noakhali</p>
+                        <a href="#">More Info</a>
+
+                    </div>
+
+                </div>
+
+                <div class="sidebar-title">
+
+                    <h4>Advertisement</h4>
+                    <a href="#">Close</a>
+
+                </div>
+
+                    <img src="images/advertisement.png" class="sidebar-ad" alt="">
+
+                <div class="sidebar-title">
+
+                        <h4>Conversation</h4>
+                        <a href="#">Hide Chat</a>
+    
+                </div>
+
+                <div class="online-list">
+
+                    <div class="online">
+
+                        <img src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.6435-9/182472719_1465351543801147_2143377724247358461_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=CxCjeytiRZ0AX-KYxe9&_nc_ht=scontent-sin6-1.xx&oh=23a8b2ee09147f7fdc257f75e4f89025&oe=60ECB920" alt="">
+
+                    </div>
+
+                    <p>Rafayed Hasan</p>
+
+                </div>
+
+                <div class="online-list">
+
+                    <div class="online">
+
+                        <img src="https://scontent-sin6-4.xx.fbcdn.net/v/t1.6435-9/119893158_335849484154889_4688945205839996323_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=_uO3KlcYIsMAX8uLVsH&_nc_ht=scontent-sin6-4.xx&oh=2c5cc962f9d37f389a223a80115b6ab5&oe=60EAF1B7" alt="">
+
+                    </div>
+
+                    <p>Sarkar Tuhin</p>
+
+                </div>
+
+                <div class="online-list">
+
+                    <div class="online">
+
+                        <img src="https://scontent-sin6-4.xx.fbcdn.net/v/t1.6435-9/176232194_475499597039116_4963215687989815970_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ip46F-W0i7IAX_6MQy7&_nc_oc=AQmI5KLNMVCtxc5jwsZp22bZAqssx4dTSw3GHsWvhuT3wepxxDUlsjBvz4Uq31ItKxQ&_nc_ht=scontent-sin6-4.xx&oh=635384da5fce5266ce2ceeebc3a0a30b&oe=60EB7115" alt="">
+
+                    </div>
+
+                    <p>Irfan Dip</p>
+
+                </div>
+
+                <div class="online-list">
+
+                    <div class="online">
+
+                        <img src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.6435-9/131895800_2819894244912101_157423497122376626_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Z2Z46F1r7OMAX8Pi5fc&_nc_ht=scontent-sin6-2.xx&oh=79b9d7a39de45f1ca12f28b8be921b80&oe=60EB1095" alt="">
+
+                    </div>
+
+                    <p> Khairul Islam Sijan</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+            <p>Made with <i class="fas fa-heart"></i><i class="fas fa-heart"></i><i class="fas fa-heart"></i> by Intisar Ishmam</p>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
